@@ -1,0 +1,10 @@
+touch .gitignore
+git config --global user.name "Adarsh"
+git config --global user.email "sgewr@g,ail"
+git init
+git add .
+git commit -m "Inital Commit"
+git status #just to see
+$ ssh-keygen -t rsa -b 4096 -C "adarshadv056@gmail.com"
+git remote add origin git@github.com:adarshadv056/Dance-website.git
+git push origin master 
