@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            #logo 
+                img(src="/static/img/logo.png")
+                |DA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services]
+            li #[a(href="/") Info]
+            li #[a(href="/contact") Contact us]
+ 
+    section#introSection 
+        div Welcome to Dance Academy 
+        div.intro Eat Sleep Dance Repeat 
+
+    section#MissionSection
+        h2 Our Mission
+        div.card 
+            h3 Dance perfection 
+            div.card-box
+                div.card-img1
+                    img(src="/static/img/lg1.png")
+            div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Dance the way u love
+            div.card-box 
+                div.card-img2 
+                    img(src="/static/img/lg2.png")
+            div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img3
+                    img(src="/static/img/lg3.png")
+            div.card-content 
+                    p This is the best dance academy of the universe
+
+    section#SponserSection
+        h2 Our Sponsors
+        div#sponsers 
+            img(src="/static/img/s1.png", alt="sponsors image",class="spimage")
+            img(src="/static/img/s2.png", alt="sponsors image",class="spimage")
+            img(src="/static/img/s3.png", alt="sponsors image",class="spimage")
+            img(src="/static/img/s4.png", alt="sponsors image",class="spimage")
+        
+
+    footer#footer 
+        p Copyright content owned by ADARSH VISHWAKARMA
+    script
+      include ../static/index.js
